@@ -11,7 +11,7 @@ foreach ($form_data as $key => $value) {
 //here's the formID
 $formID = $field['formID'];
 
-//and here's the form fields (converted back into json)
+//here's the form fields (converted back into json)
 $formFields = json_encode($field['formFields']);
 
 //now just save it to your database.
