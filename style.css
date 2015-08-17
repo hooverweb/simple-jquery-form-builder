@@ -1,0 +1,192 @@
+#sjfb-body {
+    background-color: #206fa2;
+    font-family: "PT Sans", sans-serif, Helvetica, Arial;
+    font-size: 14px;
+}
+
+#sjfb-wrap {
+    margin: 30px auto;
+    max-width: 800px;
+    padding: 20px;
+    background-color: #fff;
+    border: 6px solid #195a84;
+}
+
+#sjfb-wrap .hide {
+    display: none;
+}
+
+#sjfb-wrap h1 {
+    margin-top: 10px;
+}
+
+#sjfb-wrap h3 {
+    margin: 6px 0;
+    text-transform: capitalize;
+}
+
+#sjfb-wrap ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#sjfb-wrap .add-wrap,
+#sjfb-sample {
+    background: #f7f7f7;
+    border: 1px solid #ddd;
+    padding: 10px 20px 20px;
+    margin-bottom: 20px;
+}
+
+#sjfb-wrap .add-wrap a {
+    color: #111;
+}
+
+#sjfb-wrap .add-wrap li {
+    padding: 2px 0;
+}
+
+#sjfb-wrap .add-wrap li a:hover {
+    padding-left: 5px;
+    color: #000;
+}
+
+#sjfb-wrap .alert {
+    background-color: #00a65a;
+    border: 1px solid #008d4c;
+    padding: 10px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+#sjfb-wrap .alert textarea {
+    display: block;
+    margin-top: 10px;
+    width: 96%;
+    min-height: 140px;
+}
+
+#sjfb-wrap h2 {
+    margin: 4px 0;
+    font-weight: normal;
+}
+
+#sjfb .field {
+    border: 1px solid #ddd;
+    margin-bottom: 4px;
+    padding: 5px 10px;
+}
+
+#sjfb .field:hover {
+    background-color: #fbf9ee;
+    cursor: move;
+}
+
+#sjfb .choices li:hover {
+    background-color: #f7fbc7 !important;
+    cursor: move;
+}
+
+#sjfb label {
+    margin: 0;
+    font-weight: bold;
+}
+
+#sjfb .toggle-selected,
+#sjfb .toggle-required {
+    margin: 0 0 0 5px;
+}
+
+#sjfb .delete {
+    float: right;
+}
+
+#sjfb input {
+    font-weight: normal;
+    margin: 0 5px;
+}
+
+#sjfb input[type="text"] {
+    width: 80%;
+    max-width: 300px;
+}
+
+#sjfb .choices {
+    margin: 20px 10px;
+    padding: 5px;
+    background: #f7f7f7;
+    border: 1px solid #ddd;
+}
+
+#sjfb .choices li {
+    padding: 4px;
+    margin: 4px 0;
+}
+
+#sjfb .choices li:nth-child(even) {
+    background: #e7e7e7;
+}
+
+#sjfb .delete-choice {
+    margin-left: 5px;
+    font-weight: normal;
+}
+
+#sjfb-sample label {
+    display: block;
+    margin: 2px 0;
+}
+
+#sjfb-sample .form-fields {
+    margin: 10px 0;
+}
+
+#sjfb > button {
+    margin: 20px 0 10px;
+}
+
+#sjfb-sample {
+    max-width: 350px;
+}
+
+#sjfb-sample input[type="text"],
+#sjfb-sample textarea {
+    width: 100%;
+    max-width: 250px;
+}
+
+#sjfb-sample input[type="text"],
+#sjfb-sample textarea,
+#sjfb-sample select {
+    padding: 4px;
+}
+
+#sjfb-sample textarea {
+    min-height: 70px;
+}
+
+#sjfb-sample label {
+    line-height: 1.6em;
+}
+
+#sjfb-sample .sjfb-field {
+    margin-bottom: 20px;
+}
+
+#sjfb-sample .sjfb-agree label,
+#sjfb-sample .sjfb-agree input {
+    float: left;
+}
+
+#sjfb-sample .required-field > label:after {
+    content: " *";
+    color: red;
+    font-size: 120%;
+    font-weight: bold;
+}
+
+#sjfb-sample .submit {
+    margin: 20px 0 0;
+    cursor: pointer;
+}
