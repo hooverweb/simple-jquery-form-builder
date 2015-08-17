@@ -1,5 +1,5 @@
 /**
- * Simple Jquery Form Builder (SJFB)
+ * Simple jQuery Form Builder (SJFB)
  * Copyright (c) 2015 Brandon Hoover, Hoover Web Development LLC (http://bhoover.com)
  * http://bhoover.com/simple-jquery-form-builder/
  * SJFB may be freely distributed under the included MIT license (license.txt).
